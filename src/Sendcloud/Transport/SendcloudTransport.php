@@ -26,7 +26,7 @@ class SendcloudTransport extends Transport
      * @param Sendcloud $client
      * @param string $unSubTemplate
      */
-    public function __construct(Sendcloud $client, string $unSubTemplate)
+    public function __construct(Sendcloud $client, $unSubTemplate)
     {
         $this->client = $client;
         $this->unSubTemplate = $unSubTemplate;
